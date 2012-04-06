@@ -1,0 +1,32 @@
+{
+    "name":"mapper",
+    "version":"0.0.1",
+    "description":"Meta Programming for Serious Applications",
+    "keywords":["site", "html5"],
+    "author":"Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)",
+    "repository":{
+        "url":"https://github.com/jolira/mapper.git",
+        "type":"git"
+    },
+    "dependencies":{
+        "batch":"*"
+    },
+    "devDependencies":{
+        "debug":"*",
+        "horaa":"*",
+        "vows":"*",
+        "jake":"*"
+    },
+    "scripts":{
+        "test":"jake test",
+        "prepublish":"npm prune"
+    },
+    "bugs":{
+        "mail":"dev@jolira.com",
+        "url":"http://github.com/jolira/mapper/issues"
+    },
+    "main":"index",
+    "engines":{
+        "node":">= 0.6.0 < 0.7.0"
+    }
+}
